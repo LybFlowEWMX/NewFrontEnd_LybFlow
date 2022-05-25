@@ -1029,6 +1029,7 @@ export default {
     Pagination(id) {
       // this.$refs.niveles.EditaPermisos(1) ;
       console.log(id);
+      console.log("Hola desde GitHub");
       this.IdUserDelete = id.user;
       // Nueva version de permisos
       this.valueUser.Visibilidad = id.visibilidad;
